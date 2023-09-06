@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+    /* ============= COLORS ============= */
+    --white-100: #ffffff;
+    --gray-100: #797979;
+    --gray-80: #bcbec0;
+    --gray-70: #d9d9d9;
+    --black-100: #000000;
+    --black-100-alpha-85: rgba(0, 0, 0, 0.85);
+    --black-100-alpha-20: rgba(0, 0, 0, 0.2);
+    --black-100-alpha-17: rgba(0, 0, 0, 0.17);
+    --darkBlue-100: #0d2030;
+    --blue-90: #1b7be2;
+    --blue-75: #3482ff;
+    --blue-90-alpha-75: rgba(27, 123, 226, 0.75);
+    --blue-90-alpha-55: rgba(27, 123, 226, 0.55);
+    --blue-90-alpha-45: rgba(27, 123, 226, 0.45);
+    --blue-90-alpha-20: rgba(27, 123, 226, 0.2);
+    /* ====== Body BG ====== */
+    --body-bg: var(--white-100);
+    /* ====== Text Colors ====== */
+    --text-light: var(--white-100);
+    --text-dark: var(--darkBlue-100);
+    --text-alt-1: var(--gray-100);
+    --text-alt-2: var(--gray-80);
+    /* ====== accent Color ====== */
+    --accent-color: var(--blue-90);
+    /* ====== Linear Gradients ====== */
+    --overlay-linear: linear-gradient(to bottom, var(--black-100-alpha-17), var(--black-100-alpha-85));
+    --cta-linear: linear-gradient(to right, var(--blue-90-alpha-55), var(--blue-90-alpha-20));
+    --footer-linear: linear-gradient(135deg, var(--blue-90-alpha-75), var(--blue-90-alpha-45));
+
+    /* ============= BOX SHADOWS ============= */
+    --shadow-black-20: 0 5px 20px var(--black-100-alpha-20);
+
+    /* ============= PADDING ============= */
+    --padding-1: 1rem;
+    --padding-2: 2rem;
+    --padding-3: 3rem;
+
+    /* ============= MARGIN ============= */
+    --margin-1: var(--padding-1);
+    --margin-2: var(--padding-2);
+    --margin-3: var(--padding-3);
+
+    /* ============= BORDER RADIUS ============= */
+    --border-10: 10px;
+    --border-8: 8px;
+    --border-5: 5px;
+    --border-rounded: 100vmax;
+    --border-circle: 50%;
+
+    /* ============= DURATIONS ============= */
+    --default-duration: 300ms;
+    --fast-duration: 1500ms;
+
+    /* ============= FONT FAMILY ============= */
+    --font-family-poppins: "poppins", sans-serif;
+
+    /* ============= FONT SIZE ============= */
+    --font-size-1: 1rem;
+    --font-size-1-5: 1.5rem;
+    --font-size-2: 2rem;
+    --font-size-2-5: 2.5rem;
+    --font-size-3: 3rem;
+
+    /* ============= FONT WEIGHT ============= */
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-sime-bold: 600;
+
+    /* =============  HEIGHTS & WIDTHS =============*/
+    --full-view-height: 100vh;
+    --full-view-width: 100%;
+    --header-height: 70px;
+    --control-height: 50px;
+}
+
+body::-webkit-scrollbar {
+}
+
+body::-webkit-scrollbar-thumb {
+}
+
+a {
+}
+
+img {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+
+header,
+section,
+footer {
+}
+
+li {
+}
+
+.container {
+    width: var(--full-view-width);
+    margin: 0 auto;
+    padding: 0 var(--padding-1);
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/* =============  FLEX BOX =============*/
+.d-flex {
+}
+
+.align-center {
+}
+
+.justify-center {
+}
+
+.justify-between {
+}
+
+.justify-end {
+}
+
+.f-column {
+}
+
+.f-row {
+}
+
+.f-wrap {
+}
+
+.f-nowrap {
+}
+
+.c-gap-1 {
+}
+
+.r-gap-1 {
+}
+
+.gap-1 {
+}
+
+.c-gap-2 {
+}
+
+.r-gap-2 {
+}
+
+.gap-2 {
+}
+
+/* =============  CONTROLS =============*/
+.btn {
+}
+
+.btn-primary {
+}
+
+.btn-primary:hover {
+}
+
+.input-primary {
+}
+
+/* =============  TYPOGRAPHY =============*/
+.heading-1 {
+    font-family: "Poppins";
+    font-size: clamp(2.5rem, 4vw, 3.5rem);
+    font-style: normal;
+    font-weight: var(--font-sime-bold);
+    line-height: normal;
+}
+
+.heading-2 {
+    font-family: "Poppins";
+    font-size: clamp(2.25rem, 4vw, 3.375rem);
+    font-style: normal;
+    font-weight: var(--font-sime-bold);
+    line-height: normal;
+}
+
+.heading-3 {
+    font-family: "Poppins";
+    font-size: clamp(2rem, 4vw, 2.8125rem);
+    font-style: normal;
+    font-weight: var(--font-sime-bold);
+    line-height: normal;
+}
+
+.heading-4 {
+    font-family: "Poppins";
+    font-size: clamp(1.875rem, 4vw, 2.1875rem);
+    font-style: normal;
+    font-weight: var(--font-sime-bold);
+    line-height: normal;
+}
+
+.subtitle-lg {
+    font-family: "Poppins";
+    font-size: clamp(1.8rem, 3vw, 2.45rem);
+    font-style: normal;
+    font-weight: var(--font-medium);
+    line-height: normal;
+}
+
+.subtitle-md {
+    font-family: "Poppins";
+    font-size: clamp(1.65rem, 3vw, 2.25rem);
+    font-style: normal;
+    font-weight: var(--font-medium);
+    line-height: normal;
+}
+
+.subtitle-sm {
+    font-family: "Poppins";
+    font-size: clamp(1.5rem, 3vw, 2.125rem);
+    font-style: normal;
+    font-weight: var(--font-medium);
+    line-height: normal;
+}
+
+.subtitle-es {
+    font-family: "Poppins";
+    font-size: clamp(1.375rem, 3vw, 1.875rem);
+    font-style: normal;
+    font-weight: var(--font-medium);
+    line-height: normal;
+}
+
+.body-lg {
+    font-family: "Poppins";
+    font-size: clamp(1.25rem, 4vw, 1.5rem);
+    font-style: normal;
+    font-weight: var(--font-medium);
+    line-height: normal;
+}
+
+.body-md {
+    font-family: "Poppins";
+    font-size: clamp(1.025rem, 4vw, 1.25rem);
+    font-style: normal;
+    font-weight: var(--font-medium);
+    line-height: normal;
+}
+
+.body-sm {
+    font-family: "Poppins";
+    font-size: clamp(1rem, 4vw, 1.125rem);
+    font-style: normal;
+    font-weight: var(--font-medium);
+    line-height: normal;
+}
+
+.body-es {
+    font-family: "Poppins";
+    font-size: clamp(0.875rem, 4vw, 1rem);
+    font-style: normal;
+    font-weight: var(--font-medium);
+    line-height: normal;
+}

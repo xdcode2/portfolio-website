@@ -1,0 +1,159 @@
+============== Home ==============
+.home__left-side
+    .home__title
+        "Hi I'm Mike"
+    .home__subtitle
+        "I'm a Frontend developer"
+    .home__text
+        "With a high level of experience, I can create beautiful, functional, and user-friendly websites"
+    
+============== About ==============
+.about__text
+    .about__title
+        "I'm <span>Mike</span>"
+    .about__text
+        "A web developer and UI / UX designer dedicated to transforming ideas into digital experiences.
+         With an experience in design and a knack for coding, I thrive on building modern and user-friendly websites."
+
+    .about__info
+        "5+"
+        "Years of experience"
+    .about__info
+        "5K"
+        "Customers"
+    .about__info
+        "30+"
+        "Completed projects"
+
+============== Portfolio ==============
+.project
+    .project__title
+        "E-commerce Website"
+    .project__subtitle
+        "website"
+
+.project
+    .project__title
+        "UI/UX Design"
+    .project__subtitle
+        "Design"
+
+.project
+    .project__title
+        "Online Store"
+    .project__subtitle
+        "website"
+
+.project
+    .project__title
+        "Branding Design"
+    .project__subtitle
+        "design"
+
+.project
+    .project__title
+        "Web Design"
+    .project__subtitle
+        "design"
+
+.project
+    .project__title
+        "Travel Website"
+    .project__subtitle
+        "website"
+
+============== Services ==============
+.service
+    .service__title
+        "Web Design"
+    .service__btmsheet
+        .service__btmsheet-title
+            "what I provide?"
+        .service__btmsheet-text
+            "lorem*10"
+
+.service
+    .service__title
+        "Web development"
+    .service__btmsheet
+        .service__btmsheet-title
+            "what I provide?"
+        .service__btmsheet-text
+            "lorem20"
+
+.service
+    .service__title
+        "Logo Design"
+    .service__btmsheet
+        .service__btmsheet-title
+            "what I provide?"
+        .service__btmsheet-text
+            "lorem30"
+
+============== CTA ==============
+.cta__title
+    "Let’s get started with your next project"
+.cta__subtitle
+    "Always available for freelancing if you are ready, Feel free to contact me."
+
+============== Testimonials ==============
+.testimonials__slide
+    .testimonials__slide-comment
+        "Wonderful site! It's easy to use and edit, has many options to design everything you need, and is professional and fun.
+         I successfully built my portfolio website with a designer who gave me incredible reach and recognition."
+    .testimonials__slide-title
+        "Alex"
+    .testimonials__slide-subtitle
+        "client"
+
+.testimonials__slide
+    .testimonials__slide-comment
+        "Wonderful site! It's easy to use and edit, has many options to design everything you need, and is professional and fun.
+         I successfully built my portfolio website with a designer who gave me incredible reach and recognition."
+    .testimonials__slide-title
+        "Jack"
+    .testimonials__slide-subtitle
+        "client"
+
+.testimonials__slide
+    .testimonials__slide-comment
+        "Wonderful site! It's easy to use and edit, has many options to design everything you need, and is professional and fun.
+         I successfully built my portfolio website with a designer who gave me incredible reach and recognition."
+    .testimonials__slide-title
+        "Muhammad"
+    .testimonials__slide-subtitle
+        "client"
+
+============== Contact ==============
+.contact__info-item
+    .contact__title
+        "call me"
+    .contact__subtitle
+        "+962 123 456 789"
+
+.contact__info-item
+    .contact__title
+        "email"
+    .contact__subtitle
+        "mike@gmail.com"
+
+.contact__info-item
+    .contact__title
+        "location"
+    .contact__subtitle
+        "Jordan - Amman"
+
+============== Footer ==============
+.footer__title
+    "Mike"
+.footer__subtitle
+    "Frontend developer"
+
+.footer__copyRight
+    "&copy; 2023 <span>CodingWeb</span> All Rights Reserved"
+
+============== EmailJS ==============
+// Syntax: (serviceID, templateID, templateParams, publicKey)
+The message was sent successfully ✅
+
+The message wasn't sent successfully ❌
